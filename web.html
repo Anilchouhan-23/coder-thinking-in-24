@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>misson</title>
+</head>
+<body>
+    <caption><U>REGISTRATION-FORM</U><caption><BR><BR>
+    <form action="/submit" method="post">
+        <!-- Text input for username -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <br><br>
+    
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="PASSWORD" required>
+        <br><br>
+        <!-- checkbox -->
+         <p>--select your subjects--</p>
+         <label for="mathematics">mathematics</label>
+         <input type="checkbox" value="mathematics" name="subject" id="mathematics">
+         <label for="science">science</label>
+         <input type="checkbox" value="science" name="subject" id="science">
+         <label for="social science"> social science</label>
+         <input type="checkbox" value="social science" name="subject" id="social science">
+         <label for="hindi">hindi</label>
+         <input type="checkbox" value="hindi" name="subject" id="hindi">
+         <label for="english">english</label>
+         <input type="checkbox" value="english" name="subject" id="english"><br>
+
+    
+        <!-- Radio buttons for gender -->
+         <P>--SELECT YOUR GENDER--</P>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+    <!-- dropdown list for age -->
+     <label for="age-group">--select your age-group</label>
+     <select name="age-group value" id="age-group"> 
+    <option value="5-10">5-10</option>
+    <option value="11-14">11-14</option>
+    <option value="15-18">15-18</option>
+    <option value="19-21">19-21</option>
+</select><br>
+<br>
+<TEXtarea name="" id="" cols="10" rows="10" placeholder="TYPE HERE"></TEXtarea><BR><BR>
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
